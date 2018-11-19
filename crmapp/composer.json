@@ -1,0 +1,13 @@
+{
+    "name": "v/yii-safronov",
+    "authors": [
+        {
+            "name": "Andrey V",
+            "email": "vinyaykin@gmail.com"
+        }
+    ],
+    "require": {
+        "codeception/codeception": "*",
+        "yiisoft/yii2": "*"
+    }
+}
