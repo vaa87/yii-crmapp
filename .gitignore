@@ -1,0 +1,4 @@
+_WORK
+.vagrant
+.idea
+crmapp/vendor
