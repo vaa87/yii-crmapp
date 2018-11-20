@@ -189,7 +189,7 @@ apache:
             servername: crmapp.loc
             serveraliases:
                 - crmapp.loc
-            docroot: /var/www/crmapp
+            docroot: /var/www/crmapp/web
             port: '80'
             setenvif:
                 - 'Authorization "(.*)" HTTP_AUTHORIZATION=$1'
@@ -203,7 +203,7 @@ apache:
             directories:
                 php_html:
                     provider: directory
-                    path: /var/www/crmapp
+                    path: /var/www/crmapp/web
                     directoryindex: 'index.php index.html'
                     options:
                         - Indexes
@@ -430,4 +430,3 @@ elastic_search:
             jvm_options:
                 - '-Xms2G'
                 - '-Xmx2G'
-
